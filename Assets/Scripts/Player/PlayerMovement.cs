@@ -7,7 +7,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour 
 {
     [SerializeField] float movementSpeed;
+    [SerializeField] float jumpingSpeed;
+    [SerializeField] float gravity;
     CharacterController charController;
+    float verticalSpeed;
 
     void Start()
     {
@@ -16,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update() 
 	{
+        verticalSpeed -= gravity * Time.deltaTime;
+
         Vector3 movement = new Vector3(0, 0, 0);
 
         float fwdMovement = Input.GetAxis("Vertical");
@@ -27,9 +32,16 @@ public class PlayerMovement : MonoBehaviour
         inputVector *= movementSpeed;
 
         movement += (transform.forward * inputVector.z + transform.right * inputVector.x) * speedMultiplier;
+        movement += Vector3.up * verticalSpeed;
 
         charController.Move(movement * Time.deltaTime);
-	}
+
+        if (charController.isGrounded)
+            verticalSpeed = (Input.GetButton("Jump")) ? jumpingSpeed : 0;
+        else
+            if ((charController.collisionFlags & CollisionFlags.Above) != 0)
+                verticalSpeed = 0;
+    }
 
     public float MovementSpeed
     {
