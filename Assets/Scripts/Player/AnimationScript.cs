@@ -7,15 +7,20 @@ using UnityEngine;
 public class AnimationScript : MonoBehaviour 
 {
     Animator animator;
+    CharacterController charController;
+    PlayerMovement playerMovement;
 
     void Awake()
     {
         animator = GetComponent<Animator>();
+        charController = GetComponentInParent<CharacterController>();
+        playerMovement = GetComponentInParent<PlayerMovement>();
     }
 
     void Update() 
 	{
-        bool moving = (Input.GetButton("Vertical") || Input.GetButton("Horizontal")) ? true : false;
-        animator.SetBool("Walking", moving);
+        Vector3 horVelocity = new Vector3(charController.velocity.x, 0, charController.velocity.z);
+        float normalizedVelocity = horVelocity.magnitude / playerMovement.MovementSpeed;
+        animator.SetFloat("Horizontal Velocity", normalizedVelocity, 0.2f, Time.deltaTime);
 	}
 }

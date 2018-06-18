@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class FirstPersonCamera : MonoBehaviour
 {
-    [SerializeField] private Transform fpsCamera;
-    [SerializeField] private float rotationSpeed;
-    [SerializeField] private float verticalViewRange;
-    private float verAngle = 0;
+    [SerializeField] Transform fpsCamera;
+    [SerializeField] float rotationSpeed;
+    [SerializeField] float verticalViewRange;
+    float verAngle = 0;
 
-    private void Update()
+    void Update()
     {
         float horRotation = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
         float verRotation = -Input.GetAxis("Mouse Y") * rotationSpeed * Time.deltaTime;
