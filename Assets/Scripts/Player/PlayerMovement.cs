@@ -18,19 +18,22 @@ public class PlayerMovement : MonoBehaviour
 	{
         Vector3 movement = new Vector3(0, 0, 0);
 
-        float fwdMovement = Input.GetAxis("Vertical") * movementSpeed;
-        float horMovement = Input.GetAxis("Horizontal") * movementSpeed;
+        float fwdMovement = Input.GetAxis("Vertical");
+        float horMovement = Input.GetAxis("Horizontal");
+        float speedMultiplier = (Input.GetButton("Forward") && Input.GetButton("Sprint")) ? 1.0f : 0.5f;
 
-        float speedMultiplier = (Input.GetButton("Forward") && Input.GetButton("Sprint")) ? 1.0f : 0.7f;
+        Vector3 inputVector = new Vector3(horMovement, 0, fwdMovement);
+        inputVector.Normalize();
+        inputVector *= movementSpeed;
 
-        movement += (transform.forward * fwdMovement + transform.right * horMovement) * speedMultiplier;
+        movement += (transform.forward * inputVector.z + transform.right * inputVector.x) * speedMultiplier;
 
         charController.Move(movement * Time.deltaTime);
 	}
 
     public float MovementSpeed
     {
-        get { return movementSpeed; }
+        get { return movementSpeed;}
     }
 
 }
