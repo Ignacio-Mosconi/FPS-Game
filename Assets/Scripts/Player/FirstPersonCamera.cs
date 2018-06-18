@@ -6,7 +6,7 @@ public class FirstPersonCamera : MonoBehaviour
 {
     [SerializeField] private Transform fpsCamera;
     [SerializeField] private float rotationSpeed;
-    [SerializeField] private float verViewRange;
+    [SerializeField] private float verticalViewRange;
     private float verAngle = 0;
 
     private void Update()
@@ -15,7 +15,7 @@ public class FirstPersonCamera : MonoBehaviour
         float verRotation = -Input.GetAxis("Mouse Y") * rotationSpeed * Time.deltaTime;
 
         verAngle += verRotation;
-        verAngle = Mathf.Clamp(verAngle, -verViewRange, verViewRange);
+        verAngle = Mathf.Clamp(verAngle, -verticalViewRange, verticalViewRange);
 
         fpsCamera.localEulerAngles = new Vector3(verAngle, 0, 0);
         transform.Rotate(0, horRotation, 0);
