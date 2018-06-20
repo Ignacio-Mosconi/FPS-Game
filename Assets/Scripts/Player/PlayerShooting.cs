@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerShooting : MonoBehaviour 
 {
@@ -10,6 +11,7 @@ public class PlayerShooting : MonoBehaviour
     [SerializeField] float impactForce;
     [SerializeField] Camera fpsCamera;
     [SerializeField] ParticleSystem muzzleFlash;
+    [SerializeField] UnityEvent onShot;
     PlayerMovement playerMovement;
     float nextFireTime = 0;
 
@@ -25,6 +27,7 @@ public class PlayerShooting : MonoBehaviour
             {
                 nextFireTime = Time.time + 1 / fireRate;
                 Shoot();
+                onShot.Invoke();
             }
 	}
 
@@ -43,5 +46,14 @@ public class PlayerShooting : MonoBehaviour
             if (targetRigidbody)
                 targetRigidbody.AddForce(-hit.normal * impactForce);
         }
+    }
+    public float FireRate
+    {
+        get { return fireRate; }
+    }
+
+    public UnityEvent OnShot
+    {
+        get { return onShot; }
     }
 }

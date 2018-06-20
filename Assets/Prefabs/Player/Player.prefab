@@ -2394,7 +2394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fpsCamera: {fileID: 4030088919232138}
-  rotationSpeed: 180
+  rotationSpeed: 270
   verticalViewRange: 80
 --- !u!114 &114873662305698684
 MonoBehaviour:
