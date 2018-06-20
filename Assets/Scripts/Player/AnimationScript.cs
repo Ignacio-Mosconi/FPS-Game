@@ -10,7 +10,7 @@ public class AnimationScript : MonoBehaviour
     CharacterController charController;
     PlayerMovement playerMovement;
 
-    void Awake()
+    void Start()
     {
         animator = GetComponent<Animator>();
         charController = GetComponentInParent<CharacterController>();

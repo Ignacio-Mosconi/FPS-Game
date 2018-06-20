@@ -19,9 +19,9 @@ public class PlayerMovement : MonoBehaviour
 
     void Update() 
 	{
-        verticalSpeed -= gravity * Time.deltaTime;
-
         Vector3 movement = new Vector3(0, 0, 0);
+
+        verticalSpeed -= gravity * Time.deltaTime;
 
         float fwdMovement = Input.GetAxis("Vertical");
         float horMovement = Input.GetAxis("Horizontal");
@@ -43,9 +43,19 @@ public class PlayerMovement : MonoBehaviour
                 verticalSpeed = 0;
     }
 
+    public bool IsSprinting()
+    {
+        Vector3 currentSpeed = new Vector3(charController.velocity.x, 0, charController.velocity.z);
+        return (currentSpeed.magnitude > movementSpeed * 0.75);
+    }
+
+    public bool IsJumping()
+    {
+        return !charController.isGrounded;
+    }
+
     public float MovementSpeed
     {
         get { return movementSpeed;}
     }
-
 }

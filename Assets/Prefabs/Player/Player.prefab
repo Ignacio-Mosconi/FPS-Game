@@ -1877,7 +1877,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1640941292079114}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.16711426, y: 1.4929962, z: 0.8770386}
+  m_LocalPosition: {x: 0.1671143, y: 1.4907, z: 0.8770386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4624101534839696}
@@ -2367,8 +2367,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 25
   range: 400
-  fireRate: 750
-  impactForce: 30
+  fireRate: 10
+  impactForce: 70
   fpsCamera: {fileID: 20116293492869700}
   muzzleFlash: {fileID: 198750866990008766}
 --- !u!114 &114313722973100746
@@ -2594,7 +2594,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1816224380
+  randomSeed: -1368579504
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -5162,7 +5162,7 @@ ParticleSystem:
     ratio: 0.1
     light: {fileID: 108747908667199866}
     randomDistribution: 1
-    color: 0
+    color: 1
     range: 0
     intensity: 0
     rangeCurve:
@@ -5209,7 +5209,7 @@ ParticleSystem:
     intensityCurve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.2
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5247,7 +5247,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    maxLights: 20
+    maxLights: 10
   TrailModule:
     enabled: 0
     mode: 0

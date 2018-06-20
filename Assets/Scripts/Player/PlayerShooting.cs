@@ -10,13 +10,22 @@ public class PlayerShooting : MonoBehaviour
     [SerializeField] float impactForce;
     [SerializeField] Camera fpsCamera;
     [SerializeField] ParticleSystem muzzleFlash;
+    PlayerMovement playerMovement;
+    float nextFireTime = 0;
 
-	void Update() 
+    void Awake()
+    {
+        playerMovement = GetComponentInParent<PlayerMovement>();
+    }
+
+    void Update() 
 	{
-		if (Input.GetButton("Fire1"))
-        {
-            Shoot();
-        }
+        if (!playerMovement.IsJumping() && !playerMovement.IsSprinting())
+		    if (Input.GetButton("Fire1") && Time.time >= nextFireTime)
+            {
+                nextFireTime = Time.time + 1 / fireRate;
+                Shoot();
+            }
 	}
 
     void Shoot()
@@ -32,7 +41,7 @@ public class PlayerShooting : MonoBehaviour
             if (targetDamagable)
                 targetDamagable.TakeDamage(damage);
             if (targetRigidbody)
-                targetRigidbody.AddForce(0, 0, impactForce, ForceMode.Impulse);
+                targetRigidbody.AddForce(-hit.normal * impactForce);
         }
     }
 }
