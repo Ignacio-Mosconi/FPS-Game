@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
 
     public bool IsJumping()
     {
-        return (!charController.isGrounded && (verticalSpeed > jumpingSpeed * 0.5 || verticalSpeed < -jumpingSpeed * 0.5));
+        return (!charController.isGrounded && (verticalSpeed > 0 || verticalSpeed < -gravity));
     }
 
     public float MovementSpeed
