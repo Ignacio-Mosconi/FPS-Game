@@ -18,6 +18,8 @@ MonoBehaviour:
   - pbMeshesAreAssets
   - pbIconGUI
   - pbEnableBackfaceSelection
+  - pbGrowSelectionUsingAngle
+  - pbGrowSelectionAngleIterative
   m_Int_keys:
   - pbDefaultEditLevel
   - pbVertexColorTool
@@ -32,17 +34,19 @@ MonoBehaviour:
   - pbEditorScroll.x
   - pbEditorScroll.y
   - pbWeldDistance
+  - pbGrowSelectionAngle
   m_String_keys:
   - pbVertexColorPrefs8
   m_Color_keys: []
   m_Material_keys:
   - pbDefaultMaterial
-  m_Bool_values: 010000000101
-  m_Int_values: 010000000000000000000000020000000200000000000000010000000000000002000000
+  m_Bool_values: 0100000000010100
+  m_Int_values: 010000000000000000000000020000000200000000000000000000000000000002000000
   m_Float_values:
   - 0
   - 0
   - 0.01
+  - 42
   m_String_values:
   - RGBA(0.498, 0.498, 0.498, 1.000)
   m_Color_values: []
