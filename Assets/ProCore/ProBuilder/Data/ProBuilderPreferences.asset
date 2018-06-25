@@ -38,18 +38,20 @@ MonoBehaviour:
   - pbGrowSelectionAngle
   m_String_keys:
   - pbVertexColorPrefs8
+  - pbVertexColorPrefs3
   m_Color_keys: []
   m_Material_keys:
   - pbDefaultMaterial
   m_Bool_values: 0100000000010100
-  m_Int_values: 01000000000000000000000002000000020000000000000002000000000000000200000001000000
+  m_Int_values: 00000000000000000000000002000000020000000000000000000000000000000200000001000000
   m_Float_values:
   - 0
   - 0
-  - 0.01
+  - 0.05
   - 42
   m_String_values:
   - RGBA(0.498, 0.498, 0.498, 1.000)
+  - RGBA(0.853, 0.704, 0.489, 1.000)
   m_Color_values: []
   m_Material_values:
   - {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}

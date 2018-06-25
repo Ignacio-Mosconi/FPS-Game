@@ -22,13 +22,13 @@ public class PlayerShooting : MonoBehaviour
 
     void Update() 
 	{
-        if (!playerMovement.IsJumping() && !playerMovement.IsSprinting())
 		    if (Input.GetButton("Fire1") && Time.time >= nextFireTime)
-            {
-                nextFireTime = Time.time + 1 / fireRate;
-                Shoot();
-                onShot.Invoke();
-            }
+                if (!playerMovement.IsJumping() && !playerMovement.IsSprinting())
+                {
+                    nextFireTime = Time.time + 1 / fireRate;
+                    Shoot();
+                    onShot.Invoke();
+                }
 	}
 
     void Shoot()
@@ -47,6 +47,7 @@ public class PlayerShooting : MonoBehaviour
                 targetRigidbody.AddForce(-hit.normal * impactForce);
         }
     }
+
     public float FireRate
     {
         get { return fireRate; }
