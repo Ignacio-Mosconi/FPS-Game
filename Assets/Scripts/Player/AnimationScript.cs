@@ -37,13 +37,11 @@ public class AnimationScript : MonoBehaviour
     void HasShot()
     {
         animator.SetBool("Is Shooting", true);
-        Debug.Log("Shooting.");
         Invoke("IsNotShooting", 1 / playerShooting.FireRate);
     }
 
     void IsNotShooting()
     {
-        Debug.Log("Not Shooting.");
         animator.SetBool("Is Shooting", false);
     }
 }
