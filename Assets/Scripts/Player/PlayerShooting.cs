@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(PlayerReloading))]
+
 public class PlayerShooting : MonoBehaviour 
 {
     [SerializeField] float damage;
@@ -12,11 +14,17 @@ public class PlayerShooting : MonoBehaviour
     [SerializeField] Camera fpsCamera;
     [SerializeField] ParticleSystem muzzleFlash;
     [SerializeField] UnityEvent onShot;
+    PlayerReloading playerReloading;
     float nextFireTime = 0;
+
+    void Awake()
+    {
+        playerReloading = GetComponent<PlayerReloading>();  
+    }
 
     void Update() 
 	{
-		if (Input.GetButton("Fire1") && Time.time >= nextFireTime)
+		if (Input.GetButton("Fire1") && Time.time >= nextFireTime && playerReloading.BulletsInMag > 0)
         {
             nextFireTime = Time.time + 1 / fireRate;
             Shoot();
@@ -28,14 +36,22 @@ public class PlayerShooting : MonoBehaviour
     {
         muzzleFlash.Play();
 
+        playerReloading.BulletsInMag--;
+        Debug.Log(playerReloading.BulletsInMag);
+
         RaycastHit hit;
         if (Physics.Raycast(fpsCamera.transform.position, fpsCamera.transform.forward, out hit, range))
         {
-            Life targetDamagable = hit.transform.GetComponent<Life>();
+            Life targetLife = hit.transform.GetComponent<Life>();
             Rigidbody targetRigidbody = hit.transform.GetComponent<Rigidbody>();
 
-            if (targetDamagable)
-                targetDamagable.TakeDamage(damage);
+            if (targetLife)
+            {
+                float damagePercentage = 1 - (hit.transform.position - transform.position).magnitude / range;
+                targetLife.TakeDamage(damage * damagePercentage);
+                Debug.Log((hit.transform.position - transform.position).magnitude);
+                Debug.Log(damage * damagePercentage);
+            }
             if (targetRigidbody)
                 targetRigidbody.AddForce(-hit.normal * impactForce);
         }
