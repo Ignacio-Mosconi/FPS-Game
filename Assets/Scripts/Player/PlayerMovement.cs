@@ -44,10 +44,7 @@ public class PlayerMovement : MonoBehaviour
         if (charController.isGrounded)
         {
             verticalSpeed = (Input.GetButton("Jump")) ? jumpingSpeed : 0;
-            if (Input.GetButton("Jump") && Input.GetButton("Forward") && Input.GetButton("Sprint"))
-                jumpedWhileSprinting = true;
-            else
-                jumpedWhileSprinting = false;
+            jumpedWhileSprinting = Input.GetButton("Jump") && Input.GetButton("Forward") && Input.GetButton("Sprint") ? true : false;
         }
         else
             if ((charController.collisionFlags & CollisionFlags.Above) != 0)
