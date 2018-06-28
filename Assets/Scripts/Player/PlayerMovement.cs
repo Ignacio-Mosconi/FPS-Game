@@ -11,10 +11,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float gravity;
     CharacterController charController;
     float verticalSpeed;
+    float distanceToGround;
+    bool jumpedWhileSprinting;
 
-    void Start()
+    void Awake()
     {
         charController = GetComponent<CharacterController>();
+        distanceToGround = GetComponent<MeshFilter>().mesh.bounds.extents.y + 0.5f;
+        jumpedWhileSprinting = false;
     }
 
     void Update() 
@@ -25,7 +29,8 @@ public class PlayerMovement : MonoBehaviour
 
         float fwdMovement = Input.GetAxis("Vertical");
         float horMovement = Input.GetAxis("Horizontal");
-        float speedMultiplier = (Input.GetButton("Forward") && Input.GetButton("Sprint")) ? 1.0f : 0.5f;
+        float speedMultiplier = Input.GetButton("Forward") && Input.GetButton("Sprint") && !IsJumping() || jumpedWhileSprinting ?
+            1.0f : 0.5f;
 
         Vector3 inputVector = new Vector3(horMovement, 0, fwdMovement);
         inputVector.Normalize();
@@ -37,21 +42,21 @@ public class PlayerMovement : MonoBehaviour
         charController.Move(movement * Time.deltaTime);
 
         if (charController.isGrounded)
+        {
             verticalSpeed = (Input.GetButton("Jump")) ? jumpingSpeed : 0;
+            if (Input.GetButton("Jump") && Input.GetButton("Forward") && Input.GetButton("Sprint"))
+                jumpedWhileSprinting = true;
+            else
+                jumpedWhileSprinting = false;
+        }
         else
             if ((charController.collisionFlags & CollisionFlags.Above) != 0)
                 verticalSpeed = 0;
     }
 
-    public bool IsSprinting()
-    {
-        Vector3 currentSpeed = new Vector3(charController.velocity.x, 0, charController.velocity.z);
-        return (currentSpeed.magnitude > movementSpeed * 0.75);
-    }
-
     public bool IsJumping()
     {
-        return (!charController.isGrounded && (verticalSpeed > 0 || verticalSpeed < -gravity));
+        return !(Physics.Raycast(transform.position, -Vector3.up, distanceToGround));
     }
 
     public float MovementSpeed

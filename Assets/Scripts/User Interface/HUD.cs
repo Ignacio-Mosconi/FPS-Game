@@ -6,10 +6,16 @@ using UnityEngine.UI;
 public class HUD : MonoBehaviour 
 {
     [SerializeField] Image crosshair;
-    [SerializeField] PlayerMovement playerMovement;
+    [SerializeField] PlayerAnimation playerAnimation;
+    [SerializeField] PlayerShooting playerShooting;
 
-    void Update() 
+    void Awake() 
 	{
-        crosshair.enabled = (playerMovement.IsSprinting() || playerMovement.IsJumping()) ? false : true;
+        playerAnimation.OnShootingEnabledToggle.AddListener(CrosshairEnabledToggle);
 	}
+
+    void CrosshairEnabledToggle()
+    {
+        crosshair.enabled = playerShooting.enabled;
+    }
 }

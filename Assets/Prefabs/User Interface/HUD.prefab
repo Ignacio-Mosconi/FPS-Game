@@ -59,7 +59,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crosshair: {fileID: 114511465065153122}
-  playerMovement: {fileID: 0}
+  playerAnimation: {fileID: 0}
+  playerShooting: {fileID: 0}
 --- !u!114 &114277802280137560
 MonoBehaviour:
   m_ObjectHideFlags: 1
