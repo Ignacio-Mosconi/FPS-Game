@@ -11,15 +11,17 @@ public class PlayerShooting : MonoBehaviour
     [SerializeField] float range;
     [SerializeField] float fireRate;
     [SerializeField] float impactForce;
-    [SerializeField] Camera fpsCamera;
-    [SerializeField] ParticleSystem muzzleFlash;
     [SerializeField] UnityEvent onShot;
     PlayerReloading playerReloading;
+    Camera fpsCamera;
+    ParticleSystem muzzleFlash;
     float nextFireTime = 0;
 
     void Awake()
     {
-        playerReloading = GetComponent<PlayerReloading>();  
+        playerReloading = GetComponent<PlayerReloading>();
+        fpsCamera = GetComponentInParent<Camera>();
+        muzzleFlash = GetComponentInChildren<ParticleSystem>();
     }
 
     void Update() 

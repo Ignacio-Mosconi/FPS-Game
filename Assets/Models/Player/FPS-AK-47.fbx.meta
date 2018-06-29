@@ -85,6 +85,26 @@ ModelImporter:
     100154: Clavicle Right
     100156: Lower Arm Left
     100158: Lower Arm Right
+    100160: Bone_end_end_end
+    100162: index_03_l_end_end_end
+    100164: index_03_r_end_end_end
+    100166: lowerarm_l_end_end_end
+    100168: lowerarm_r_end_end_end
+    100170: Magazine
+    100172: middle_03_l_end_end_end
+    100174: middle_03_r_end_end_end
+    100176: pinky_03_l_end_end_end
+    100178: pinky_03_r_end_end_end
+    100180: ring_03_l_end_end_end
+    100182: ring_03_r_end_end_end
+    100184: thumb_03_l_end_end_end
+    100186: thumb_03_r_end_end_end
+    100188: handle
+    100190: handle_end
+    100192: lower_arm_l
+    100194: lower_arrm_r
+    100196: thumb_r
+    100198: thumb_r_end
     400000: AK-47
     400002: Bone
     400004: Bone_end
@@ -165,12 +185,35 @@ ModelImporter:
     400154: Clavicle Right
     400156: Lower Arm Left
     400158: Lower Arm Right
+    400160: Bone_end_end_end
+    400162: index_03_l_end_end_end
+    400164: index_03_r_end_end_end
+    400166: lowerarm_l_end_end_end
+    400168: lowerarm_r_end_end_end
+    400170: Magazine
+    400172: middle_03_l_end_end_end
+    400174: middle_03_r_end_end_end
+    400176: pinky_03_l_end_end_end
+    400178: pinky_03_r_end_end_end
+    400180: ring_03_l_end_end_end
+    400182: ring_03_r_end_end_end
+    400184: thumb_03_l_end_end_end
+    400186: thumb_03_r_end_end_end
+    400188: handle
+    400190: handle_end
+    400192: lower_arm_l
+    400194: lower_arrm_r
+    400196: thumb_r
+    400198: thumb_r_end
     2300000: AK-47
+    2300002: Magazine
     3300000: AK-47
+    3300002: Magazine
     4300000: AK-47
     4300002: male01Mesh
     4300004: high-polyMesh
     4300006: Arms
+    4300008: Magazine
     9500000: //RootNode
     13700000: high-polyMesh
     13700002: male01Mesh
