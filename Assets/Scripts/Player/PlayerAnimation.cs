@@ -9,19 +9,23 @@ using UnityEngine.Events;
 public class PlayerAnimation : MonoBehaviour 
 {
     [SerializeField] UnityEvent onShootingEnabledToggle;
+    [SerializeField] AnimationClip reloadingAnimation;
     Animator animator;
     CharacterController charController;
     PlayerMovement playerMovement;
     PlayerShooting playerShooting;
+    PlayerReloading playerReloading;
 
     void Awake()
     {
         animator = GetComponent<Animator>();
         playerShooting = GetComponent<PlayerShooting>();
+        playerReloading = GetComponent<PlayerReloading>();
         charController = GetComponentInParent<CharacterController>();
         playerMovement = GetComponentInParent<PlayerMovement>();
 
         playerShooting.OnShot.AddListener(HasShot);
+        playerReloading.OnReload.AddListener(HasReloaded);
     }
 
     void Update() 
@@ -31,17 +35,33 @@ public class PlayerAnimation : MonoBehaviour
         float verticalVelocity = charController.velocity.y;
         bool jumping = playerMovement.IsJumping();
 
-        if (!jumping)
+        if (!jumping && !animator.GetBool("Is Reloading"))
         {
-            if (!playerShooting.enabled && normalizedVelocity < 0.6)
-                EnableShooting();
+            if (normalizedVelocity < 0.6)
+            {
+                if (!playerShooting.enabled)
+                    EnableShooting();
+                if (!playerReloading.enabled)
+                    EnableReloading();
+            }
             else
-                if (playerShooting.enabled && normalizedVelocity >= 0.6)
-                    DisableShooting();
+            {
+                if (normalizedVelocity >= 0.6)
+                {
+                    if (playerShooting.enabled)
+                        DisableShooting();
+                    if (playerReloading.enabled)
+                        DisableReloading();
+                }
+            }
         }
         else
+        {
             if (playerShooting.enabled)
                 DisableShooting();
+            if (playerReloading.enabled)
+                DisableReloading();
+        }
 
         animator.SetFloat("Horizontal Velocity", normalizedVelocity, 0.2f, Time.deltaTime);
         animator.SetFloat("Vertical Velocity", verticalVelocity, 0.2f, Time.deltaTime);
@@ -59,6 +79,17 @@ public class PlayerAnimation : MonoBehaviour
         animator.SetBool("Is Shooting", false);
     }
 
+    void HasReloaded()
+    {
+        animator.SetBool("Is Reloading", true);
+        Invoke("IsNotReloading", reloadingAnimation.length);
+    }
+
+    void IsNotReloading()
+    {
+        animator.SetBool("Is Reloading", false);
+    }
+
     void DisableShooting()
     {
         playerShooting.enabled = false;
@@ -70,6 +101,17 @@ public class PlayerAnimation : MonoBehaviour
         playerShooting.enabled = true;
         onShootingEnabledToggle.Invoke();
     }
+
+    void DisableReloading()
+    {
+        playerReloading.enabled = false;
+    }
+
+    void EnableReloading()
+    {
+        playerReloading.enabled = true;
+    }
+
 
     public UnityEvent OnShootingEnabledToggle
     {

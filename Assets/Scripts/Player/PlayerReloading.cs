@@ -8,6 +8,7 @@ public class PlayerReloading : MonoBehaviour
     [SerializeField] int magSize;
     [SerializeField] int ammoLeft;
     [SerializeField] UnityEvent onAmmoChange;
+    [SerializeField] UnityEvent onReload;
     int bulletsInMag;
 
     void Awake()
@@ -41,6 +42,7 @@ public class PlayerReloading : MonoBehaviour
                 ammoLeft = 0;
             }
             onAmmoChange.Invoke();
+            onReload.Invoke();
         }
     }
 
@@ -62,5 +64,10 @@ public class PlayerReloading : MonoBehaviour
     public UnityEvent OnAmmoChange
     {
         get { return onAmmoChange; }
+    }
+
+    public UnityEvent OnReload
+    {
+        get { return onReload; }
     }
 }
