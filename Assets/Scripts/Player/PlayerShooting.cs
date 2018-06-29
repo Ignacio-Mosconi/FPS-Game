@@ -37,7 +37,6 @@ public class PlayerShooting : MonoBehaviour
         muzzleFlash.Play();
 
         playerReloading.BulletsInMag--;
-        Debug.Log(playerReloading.BulletsInMag);
 
         RaycastHit hit;
         if (Physics.Raycast(fpsCamera.transform.position, fpsCamera.transform.forward, out hit, range))

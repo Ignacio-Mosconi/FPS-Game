@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerReloading : MonoBehaviour
 {
     [SerializeField] int magSize;
     [SerializeField] int ammoLeft;
+    [SerializeField] UnityEvent onAmmoChange;
     int bulletsInMag;
 
     void Awake()
@@ -18,33 +20,47 @@ public class PlayerReloading : MonoBehaviour
         if (Input.GetButtonDown("Reload") && bulletsInMag < magSize + 1)
         {
             Reload();
-            Debug.Log(bulletsInMag);
         }
     }
 
     void Reload()
     {
-        if (ammoLeft > magSize)
+        if (ammoLeft > 0)
         {
-            if (bulletsInMag > 0)
-                bulletsInMag = magSize + 1;
+            if (ammoLeft > magSize)
+            {
+                if (bulletsInMag > 0)
+                    bulletsInMag = magSize + 1;
+                else
+                    bulletsInMag = magSize;
+                ammoLeft -= magSize;
+            }
             else
-                bulletsInMag = magSize;
-            ammoLeft -= magSize;
-        }
-        else
-        {
-            if (ammoLeft > 0)
             {
                 bulletsInMag = ammoLeft;
                 ammoLeft = 0;
             }
+            onAmmoChange.Invoke();
         }
     }
 
     public int BulletsInMag
     {
         get { return bulletsInMag; }
-        set { bulletsInMag = value; }
+        set
+        {
+            bulletsInMag = value;
+            onAmmoChange.Invoke();
+        }
+    }
+
+    public int AmmoLeft
+    {
+        get { return ammoLeft; }
+    }
+
+    public UnityEvent OnAmmoChange
+    {
+        get { return onAmmoChange; }
     }
 }
