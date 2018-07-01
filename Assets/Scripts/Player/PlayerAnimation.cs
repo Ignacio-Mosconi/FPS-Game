@@ -112,7 +112,6 @@ public class PlayerAnimation : MonoBehaviour
         playerReloading.enabled = true;
     }
 
-
     public UnityEvent OnShootingEnabledToggle
     {
         get { return onShootingEnabledToggle; }
