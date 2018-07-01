@@ -39,6 +39,7 @@ MonoBehaviour:
   - pbEditorScroll.y
   - pbWeldDistance
   - pbGrowSelectionAngle
+  - pbBevelAmount
   m_String_keys:
   - pbVertexColorPrefs8
   - pbVertexColorPrefs3
@@ -46,13 +47,14 @@ MonoBehaviour:
   m_Color_keys: []
   m_Material_keys:
   - pbDefaultMaterial
-  m_Bool_values: 0101000000000100010100
-  m_Int_values: 01000000000000000000000002000000020000000100000001000000000000000200000001000000
+  m_Bool_values: 0101000000010100010100
+  m_Int_values: 01000000000000000000000002000000020000000100000000000000000000000200000001000000
   m_Float_values:
   - 0
   - 0
   - 0.05
   - 42
+  - 0.1
   m_String_values:
   - RGBA(0.498, 0.498, 0.498, 1.000)
   - RGBA(0.853, 0.704, 0.489, 1.000)
