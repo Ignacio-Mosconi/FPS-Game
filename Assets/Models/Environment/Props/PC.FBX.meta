@@ -29,7 +29,7 @@ ModelImporter:
       name: PC
     second: {fileID: 2100000, guid: e30176cd4da79504e9a93d442119f006, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
