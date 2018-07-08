@@ -21,12 +21,12 @@ GameObject:
   - component: {fileID: 4390975091473448}
   - component: {fileID: 33615669608353360}
   - component: {fileID: 23510478855539644}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Paperback.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1002460707236260
 GameObject:
@@ -38,12 +38,12 @@ GameObject:
   - component: {fileID: 4109421280774244}
   - component: {fileID: 33231454858017804}
   - component: {fileID: 23870017017660914}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Hardcover.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1008465609096584
 GameObject:
@@ -55,12 +55,12 @@ GameObject:
   - component: {fileID: 4006256528471584}
   - component: {fileID: 33553510814075236}
   - component: {fileID: 23240993300073870}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blue Hardcover Book Texture.2.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1018543368905520
 GameObject:
@@ -70,12 +70,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4670761611564594}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: book showcase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1020252162335542
 GameObject:
@@ -85,12 +85,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4539476204315460}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: cardboard box.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1028932155559612
 GameObject:
@@ -102,12 +102,12 @@ GameObject:
   - component: {fileID: 4038883346105984}
   - component: {fileID: 33268232565439198}
   - component: {fileID: 23969542124366120}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Paperback.4.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1046023907574538
 GameObject:
@@ -119,12 +119,12 @@ GameObject:
   - component: {fileID: 4910081613699068}
   - component: {fileID: 33177188812110254}
   - component: {fileID: 23840554439585674}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.2.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1059502000452304
 GameObject:
@@ -136,12 +136,12 @@ GameObject:
   - component: {fileID: 4426289529307474}
   - component: {fileID: 33821583385478436}
   - component: {fileID: 23789213770104634}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.1.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1069109491246106
 GameObject:
@@ -153,12 +153,12 @@ GameObject:
   - component: {fileID: 4714228717078044}
   - component: {fileID: 33583002649990850}
   - component: {fileID: 23773979446141938}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1084156380480348
 GameObject:
@@ -170,12 +170,12 @@ GameObject:
   - component: {fileID: 4187513821783982}
   - component: {fileID: 33481052588081800}
   - component: {fileID: 23915077249707074}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gardening.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1098289611553058
 GameObject:
@@ -187,12 +187,12 @@ GameObject:
   - component: {fileID: 4930679857455126}
   - component: {fileID: 33990643319546886}
   - component: {fileID: 23692720629733672}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: History Of The World.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1105379936952258
 GameObject:
@@ -204,12 +204,12 @@ GameObject:
   - component: {fileID: 4432336680775490}
   - component: {fileID: 33753892787536060}
   - component: {fileID: 23361958938482062}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1112005582836036
 GameObject:
@@ -221,12 +221,12 @@ GameObject:
   - component: {fileID: 4712928062053004}
   - component: {fileID: 33984769419521280}
   - component: {fileID: 23937104272206624}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blue Hardcover Book Texture.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1114646666914182
 GameObject:
@@ -238,12 +238,12 @@ GameObject:
   - component: {fileID: 4720124073085098}
   - component: {fileID: 33931735668359382}
   - component: {fileID: 23303865107632216}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1115842368326980
 GameObject:
@@ -255,12 +255,12 @@ GameObject:
   - component: {fileID: 4854370412944080}
   - component: {fileID: 33340436158473412}
   - component: {fileID: 23693189467726694}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: cupboard.1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1151036224178410
 GameObject:
@@ -272,12 +272,12 @@ GameObject:
   - component: {fileID: 4984124496364644}
   - component: {fileID: 33846979722516086}
   - component: {fileID: 23411110179696252}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blue Hardcover Book Texture.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1156985191917442
 GameObject:
@@ -289,12 +289,12 @@ GameObject:
   - component: {fileID: 4142068215839260}
   - component: {fileID: 33547748564035314}
   - component: {fileID: 23031617776563972}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Paperbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1161763100351666
 GameObject:
@@ -306,12 +306,12 @@ GameObject:
   - component: {fileID: 4528102449120816}
   - component: {fileID: 33795430243961552}
   - component: {fileID: 23765222878373798}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Paperback.1.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1175144219899110
 GameObject:
@@ -323,12 +323,12 @@ GameObject:
   - component: {fileID: 4681162083836580}
   - component: {fileID: 33306560284973296}
   - component: {fileID: 23079439056477302}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.6.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1180025128750222
 GameObject:
@@ -340,12 +340,12 @@ GameObject:
   - component: {fileID: 4810957289592340}
   - component: {fileID: 33585991280950926}
   - component: {fileID: 23875267585101592}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Paperbox.1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1193686247532720
 GameObject:
@@ -357,12 +357,12 @@ GameObject:
   - component: {fileID: 4408112616080904}
   - component: {fileID: 33933086313392960}
   - component: {fileID: 23948907027426780}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Paperbox.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1213518726825254
 GameObject:
@@ -374,12 +374,12 @@ GameObject:
   - component: {fileID: 4006405249263398}
   - component: {fileID: 33848858590591150}
   - component: {fileID: 23318906329937220}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Hardcover.3.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1215668011999598
 GameObject:
@@ -391,12 +391,12 @@ GameObject:
   - component: {fileID: 4754649549912846}
   - component: {fileID: 33779158475228680}
   - component: {fileID: 23711003120442924}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Hardcover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1220740864815314
 GameObject:
@@ -408,12 +408,12 @@ GameObject:
   - component: {fileID: 4919342437236136}
   - component: {fileID: 33462304070219764}
   - component: {fileID: 23170639588954972}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gardening.2.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1241374044549358
 GameObject:
@@ -425,12 +425,12 @@ GameObject:
   - component: {fileID: 4958154210817678}
   - component: {fileID: 33243801278561822}
   - component: {fileID: 23542458686401040}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Hardcover.3.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1268133272631562
 GameObject:
@@ -442,12 +442,12 @@ GameObject:
   - component: {fileID: 4591825587780158}
   - component: {fileID: 33113946807258282}
   - component: {fileID: 23551546921606282}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.7.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1270331464955600
 GameObject:
@@ -459,12 +459,12 @@ GameObject:
   - component: {fileID: 4265640643506306}
   - component: {fileID: 33499519624242360}
   - component: {fileID: 23155093154921210}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Film Reel 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1301357051484118
 GameObject:
@@ -476,12 +476,12 @@ GameObject:
   - component: {fileID: 4349864488853212}
   - component: {fileID: 33647846620523760}
   - component: {fileID: 23749853313111562}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: 70s record player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1307572292859150
 GameObject:
@@ -493,12 +493,12 @@ GameObject:
   - component: {fileID: 4702300859164474}
   - component: {fileID: 33711378078585864}
   - component: {fileID: 23745667255287396}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Paperback.1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1310448015929446
 GameObject:
@@ -510,12 +510,12 @@ GameObject:
   - component: {fileID: 4035188748153410}
   - component: {fileID: 33065936618607272}
   - component: {fileID: 23669047444543518}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: History Of The World.3.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1318169772998964
 GameObject:
@@ -527,12 +527,12 @@ GameObject:
   - component: {fileID: 4862346586020220}
   - component: {fileID: 33683362538197952}
   - component: {fileID: 23134937278019750}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1334242759406348
 GameObject:
@@ -542,12 +542,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4178524370049534}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Book Set Texture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1339492099278964
 GameObject:
@@ -559,12 +559,12 @@ GameObject:
   - component: {fileID: 4194423099065064}
   - component: {fileID: 33358998554956306}
   - component: {fileID: 23481498279047478}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mid Thick Hardcover Book.1.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1361212879238866
 GameObject:
@@ -576,12 +576,12 @@ GameObject:
   - component: {fileID: 4704150590256354}
   - component: {fileID: 33947948913441600}
   - component: {fileID: 23192939503677618}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: cupboard.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1368292065369746
 GameObject:
@@ -593,12 +593,12 @@ GameObject:
   - component: {fileID: 4464391012416270}
   - component: {fileID: 33676818707569050}
   - component: {fileID: 23356367120218680}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Hardcover.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1383944747204216
 GameObject:
@@ -610,12 +610,12 @@ GameObject:
   - component: {fileID: 4479052872283532}
   - component: {fileID: 33990908496389814}
   - component: {fileID: 23807460459831642}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Film Reel 2.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1388019072429702
 GameObject:
@@ -625,13 +625,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4882545105941884}
-  - component: {fileID: 95011044246755482}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Old Bookshelves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1396421949243048
 GameObject:
@@ -643,12 +642,12 @@ GameObject:
   - component: {fileID: 4872646374949198}
   - component: {fileID: 33016401350348864}
   - component: {fileID: 23588117263447410}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1411148834336356
 GameObject:
@@ -660,12 +659,12 @@ GameObject:
   - component: {fileID: 4248805019828342}
   - component: {fileID: 33933063701505076}
   - component: {fileID: 23039277076677718}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: History Of The World.1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1412040783878726
 GameObject:
@@ -677,12 +676,12 @@ GameObject:
   - component: {fileID: 4187383862807660}
   - component: {fileID: 33611792106016592}
   - component: {fileID: 23971982132770498}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.3.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1424123686431120
 GameObject:
@@ -694,12 +693,12 @@ GameObject:
   - component: {fileID: 4030000502806154}
   - component: {fileID: 33723371189703046}
   - component: {fileID: 23622981191981786}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gardening.1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1424219758001018
 GameObject:
@@ -711,12 +710,12 @@ GameObject:
   - component: {fileID: 4853307302814034}
   - component: {fileID: 33325851321467994}
   - component: {fileID: 23948716445745708}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blue Hardcover Book Texture.2.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1425027384525698
 GameObject:
@@ -728,12 +727,12 @@ GameObject:
   - component: {fileID: 4833673930868676}
   - component: {fileID: 33176816918083122}
   - component: {fileID: 23866552382905982}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.5.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1432038309714234
 GameObject:
@@ -745,12 +744,12 @@ GameObject:
   - component: {fileID: 4399161492119524}
   - component: {fileID: 33442074406199742}
   - component: {fileID: 23428588405353656}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mid Thick Hardcover Book.1.5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1451994979275184
 GameObject:
@@ -762,12 +761,12 @@ GameObject:
   - component: {fileID: 4292219645551768}
   - component: {fileID: 33269730949121646}
   - component: {fileID: 23340455795903090}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mid Thick Hardcover Book.1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1454955431144126
 GameObject:
@@ -779,12 +778,12 @@ GameObject:
   - component: {fileID: 4614111945767146}
   - component: {fileID: 33945209921977096}
   - component: {fileID: 23063320038544092}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Paperback.1.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1456928213830816
 GameObject:
@@ -796,12 +795,13 @@ GameObject:
   - component: {fileID: 4693267173330732}
   - component: {fileID: 33495162747161756}
   - component: {fileID: 23457098713052118}
-  m_Layer: 0
+  - component: {fileID: 65879361660069740}
+  m_Layer: 10
   m_Name: Bookshelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1487419763092774
 GameObject:
@@ -813,12 +813,13 @@ GameObject:
   - component: {fileID: 4768230976483524}
   - component: {fileID: 33871803333667012}
   - component: {fileID: 23961704171699118}
-  m_Layer: 0
+  - component: {fileID: 65335072230852580}
+  m_Layer: 10
   m_Name: Old Record Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1490758856634610
 GameObject:
@@ -830,12 +831,12 @@ GameObject:
   - component: {fileID: 4968375860467548}
   - component: {fileID: 33787934945494742}
   - component: {fileID: 23736551465163124}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1516262296504094
 GameObject:
@@ -847,12 +848,12 @@ GameObject:
   - component: {fileID: 4608092696766932}
   - component: {fileID: 33923911292871646}
   - component: {fileID: 23465945028305802}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mid Thick Hardcover Book.1.6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1534539057945112
 GameObject:
@@ -864,12 +865,12 @@ GameObject:
   - component: {fileID: 4947912378198108}
   - component: {fileID: 33040455305407428}
   - component: {fileID: 23259647428215386}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Hardcover.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1537549786203908
 GameObject:
@@ -881,12 +882,12 @@ GameObject:
   - component: {fileID: 4120184709263912}
   - component: {fileID: 33943386628603582}
   - component: {fileID: 23740977072136720}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Hardcover.2.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1537872225954872
 GameObject:
@@ -898,12 +899,12 @@ GameObject:
   - component: {fileID: 4619946748240664}
   - component: {fileID: 33104014624018976}
   - component: {fileID: 23170806609870082}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: History Of The World.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1539394276779490
 GameObject:
@@ -915,12 +916,12 @@ GameObject:
   - component: {fileID: 4385518616018450}
   - component: {fileID: 33464813466530352}
   - component: {fileID: 23703291912695100}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Paperback.2.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1595976677052978
 GameObject:
@@ -932,12 +933,12 @@ GameObject:
   - component: {fileID: 4833967390626276}
   - component: {fileID: 33922600743558626}
   - component: {fileID: 23512037586059488}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Hardcover.1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1601217046786986
 GameObject:
@@ -949,12 +950,12 @@ GameObject:
   - component: {fileID: 4795051130797850}
   - component: {fileID: 33429184671290126}
   - component: {fileID: 23528872439675584}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Hardcover.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1640975639732104
 GameObject:
@@ -966,12 +967,12 @@ GameObject:
   - component: {fileID: 4389129136885276}
   - component: {fileID: 33913262716896374}
   - component: {fileID: 23127288869392104}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blue Hardcover Book Texture.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1647701824177198
 GameObject:
@@ -983,12 +984,12 @@ GameObject:
   - component: {fileID: 4700780047744374}
   - component: {fileID: 33867491612851048}
   - component: {fileID: 23013495564676934}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: History Of The World.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1651214067492538
 GameObject:
@@ -1000,12 +1001,12 @@ GameObject:
   - component: {fileID: 4512759252402322}
   - component: {fileID: 33909814366287108}
   - component: {fileID: 23544319867000458}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.4.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1672229367562968
 GameObject:
@@ -1017,12 +1018,12 @@ GameObject:
   - component: {fileID: 4459164473982956}
   - component: {fileID: 33758812788088498}
   - component: {fileID: 23935686767936632}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Paperback.5.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1678468496321346
 GameObject:
@@ -1034,12 +1035,12 @@ GameObject:
   - component: {fileID: 4932454619501566}
   - component: {fileID: 33166060107376940}
   - component: {fileID: 23766725405558956}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Paperback.6.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1694179592085354
 GameObject:
@@ -1051,12 +1052,12 @@ GameObject:
   - component: {fileID: 4979642880471666}
   - component: {fileID: 33975155253332566}
   - component: {fileID: 23278393447947160}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blue Hardcover Book Texture.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1695643350398696
 GameObject:
@@ -1068,12 +1069,12 @@ GameObject:
   - component: {fileID: 4178906982802328}
   - component: {fileID: 33006898933202692}
   - component: {fileID: 23707221178668378}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mid Thick Hardcover Book.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1696408416033544
 GameObject:
@@ -1085,12 +1086,12 @@ GameObject:
   - component: {fileID: 4415384641001916}
   - component: {fileID: 33272709617790174}
   - component: {fileID: 23429560991395164}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.1.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1704714466217680
 GameObject:
@@ -1102,12 +1103,12 @@ GameObject:
   - component: {fileID: 4462194834290220}
   - component: {fileID: 33766478715475594}
   - component: {fileID: 23064746644484624}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mid Thick Hardcover Book.2.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1713058952096990
 GameObject:
@@ -1119,12 +1120,12 @@ GameObject:
   - component: {fileID: 4831720299404202}
   - component: {fileID: 33999470797821246}
   - component: {fileID: 23859380742817376}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Paperback.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1735776004421096
 GameObject:
@@ -1136,12 +1137,12 @@ GameObject:
   - component: {fileID: 4320563424778874}
   - component: {fileID: 33784998962669016}
   - component: {fileID: 23856040242970310}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1737060331850050
 GameObject:
@@ -1153,12 +1154,12 @@ GameObject:
   - component: {fileID: 4516612062914430}
   - component: {fileID: 33411974137142136}
   - component: {fileID: 23627190994408344}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Hardcover.2.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1738432689566798
 GameObject:
@@ -1170,12 +1171,12 @@ GameObject:
   - component: {fileID: 4047449987141144}
   - component: {fileID: 33343913618074034}
   - component: {fileID: 23901400171008930}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mid Thick Hardcover Book.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1756534086008270
 GameObject:
@@ -1187,12 +1188,12 @@ GameObject:
   - component: {fileID: 4547622080625780}
   - component: {fileID: 33901323260357524}
   - component: {fileID: 23287513681565884}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Paperback.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1772899558323312
 GameObject:
@@ -1204,12 +1205,12 @@ GameObject:
   - component: {fileID: 4866968752255768}
   - component: {fileID: 33435283685407828}
   - component: {fileID: 23298093897278886}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blue Hardcover Book Texture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1779387785772766
 GameObject:
@@ -1221,12 +1222,12 @@ GameObject:
   - component: {fileID: 4587827591398412}
   - component: {fileID: 33335505600774786}
   - component: {fileID: 23672634495441610}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1797002030034282
 GameObject:
@@ -1238,12 +1239,13 @@ GameObject:
   - component: {fileID: 4386725398492268}
   - component: {fileID: 33099751791070112}
   - component: {fileID: 23766016876117956}
-  m_Layer: 0
+  - component: {fileID: 65114658644121352}
+  m_Layer: 10
   m_Name: Bookshelf.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1820435202986302
 GameObject:
@@ -1255,12 +1257,12 @@ GameObject:
   - component: {fileID: 4213703742766866}
   - component: {fileID: 33042456160757650}
   - component: {fileID: 23472504570841994}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mid Thick Hardcover Book.1.4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1830624010349246
 GameObject:
@@ -1270,12 +1272,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4909915524565298}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lower Poly Bookcase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1830897726534342
 GameObject:
@@ -1287,12 +1289,12 @@ GameObject:
   - component: {fileID: 4438860141030006}
   - component: {fileID: 33004252037152518}
   - component: {fileID: 23593513381898732}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Paperback.5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1832894973184218
 GameObject:
@@ -1304,12 +1306,12 @@ GameObject:
   - component: {fileID: 4002453812830118}
   - component: {fileID: 33961286672393452}
   - component: {fileID: 23026932762067190}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Paperback.3.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1837396703576360
 GameObject:
@@ -1321,12 +1323,12 @@ GameObject:
   - component: {fileID: 4039368165897562}
   - component: {fileID: 33042434325779554}
   - component: {fileID: 23110088509184382}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gardening.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1843397260631500
 GameObject:
@@ -1338,12 +1340,12 @@ GameObject:
   - component: {fileID: 4808319658719876}
   - component: {fileID: 33314714683389428}
   - component: {fileID: 23552270476953610}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Encyclopedia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1849464522270990
 GameObject:
@@ -1355,12 +1357,12 @@ GameObject:
   - component: {fileID: 4141092507244994}
   - component: {fileID: 33849276496437708}
   - component: {fileID: 23459384008010822}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: History Of The World.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1858573226803064
 GameObject:
@@ -1370,12 +1372,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4381904889641024}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1859689826483786
 GameObject:
@@ -1387,12 +1389,12 @@ GameObject:
   - component: {fileID: 4831894539221892}
   - component: {fileID: 33542100561648684}
   - component: {fileID: 23180656252428594}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Paperbox.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1869803877687474
 GameObject:
@@ -1402,12 +1404,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4820173325175702}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Book Set Texture.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1875686120231556
 GameObject:
@@ -1417,12 +1419,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4956381294497376}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: cardboard box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1944105960639166
 GameObject:
@@ -1434,12 +1436,12 @@ GameObject:
   - component: {fileID: 4397760668101112}
   - component: {fileID: 33044096752027022}
   - component: {fileID: 23262842758066756}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Hardcover.4.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1961336951696428
 GameObject:
@@ -1451,12 +1453,12 @@ GameObject:
   - component: {fileID: 4934511170716084}
   - component: {fileID: 33868778226063462}
   - component: {fileID: 23055134028228048}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Paperback.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1962468541221556
 GameObject:
@@ -1468,12 +1470,12 @@ GameObject:
   - component: {fileID: 4842173630593166}
   - component: {fileID: 33749687299864764}
   - component: {fileID: 23116151063036464}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mid Thick Hardcover Book
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1964166998812536
 GameObject:
@@ -1485,12 +1487,12 @@ GameObject:
   - component: {fileID: 4778276954380832}
   - component: {fileID: 33946100873903822}
   - component: {fileID: 23632741645001610}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Thin Paperback.6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1977352480025882
 GameObject:
@@ -1500,12 +1502,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4320045169835766}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Normal Bookcase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1980145559390218
 GameObject:
@@ -1517,12 +1519,12 @@ GameObject:
   - component: {fileID: 4962269417591878}
   - component: {fileID: 33435731871746922}
   - component: {fileID: 23476920846063374}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Musical Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4002453812830118
 Transform:
@@ -1531,7 +1533,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1832894973184218}
   m_LocalRotation: {x: 0.6429482, y: 0.6568958, z: -0.26170155, w: -0.2943091}
-  m_LocalPosition: {x: 0.0068369675, y: 2.2965147, z: 0.10942535}
+  m_LocalPosition: {x: -0.18869682, y: 2.152, z: 0.10915835}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4820173325175702}
@@ -1544,7 +1546,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1008465609096584}
   m_LocalRotation: {x: 0.70381993, y: -0.7038197, z: 0.06810043, w: -0.06810048}
-  m_LocalPosition: {x: 0.11329021, y: -0.010812683, z: -0.5137117}
+  m_LocalPosition: {x: 0.11329021, y: -0.334, z: -0.5137117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4820173325175702}
@@ -1557,7 +1559,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1213518726825254}
   m_LocalRotation: {x: 0.09768623, y: -0.09890834, z: -0.70032674, w: 0.700155}
-  m_LocalPosition: {x: 0.06423809, y: 0.13029312, z: -0.57844555}
+  m_LocalPosition: {x: 0.06423809, y: -0.19289567, z: -0.57844555}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4820173325175702}
@@ -1570,7 +1572,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1424123686431120}
   m_LocalRotation: {x: -0.70094985, y: 0.70094985, z: 0.093109116, w: -0.09310922}
-  m_LocalPosition: {x: 0.21133953, y: 0.48050764, z: -0.5184695}
+  m_LocalPosition: {x: 0.21133953, y: 0.735, z: -0.5184695}
   m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 4820173325175702}
@@ -1596,7 +1598,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1028932155559612}
   m_LocalRotation: {x: 0.000000025531312, y: -0.00000008003529, z: -0.18622893, w: 0.9825064}
-  m_LocalPosition: {x: 0.92955214, y: -0.03490036, z: 0.06358551}
+  m_LocalPosition: {x: 0.92955214, y: -0.41907853, z: 0.06358551}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 4381904889641024}
@@ -1609,7 +1611,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1837396703576360}
   m_LocalRotation: {x: 0.23156139, y: 0.6681163, z: 0.23156148, w: 0.6681162}
-  m_LocalPosition: {x: 0.13853352, y: 1.585525, z: -0.67534393}
+  m_LocalPosition: {x: 0.13853349, y: 0.8307433, z: -0.9764991}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -1622,7 +1624,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1738432689566798}
   m_LocalRotation: {x: 4.3296377e-17, y: -0.7071068, z: 4.3296377e-17, w: 0.7071068}
-  m_LocalPosition: {x: -0.031233348, y: 1.7899287, z: 1.2988769}
+  m_LocalPosition: {x: -0.031233378, y: 1.035147, z: 0.9977218}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -1635,7 +1637,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1002460707236260}
   m_LocalRotation: {x: -0.7066557, y: 0.7069608, z: -0.021135403, w: 0.01993977}
-  m_LocalPosition: {x: 0.06505937, y: -0.106351465, z: -1.1974893}
+  m_LocalPosition: {x: 0.064559676, y: -0.31734046, z: -0.8709893}
   m_LocalScale: {x: 1, y: 1, z: 1.0000001}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -1648,7 +1650,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1537549786203908}
   m_LocalRotation: {x: -0.70675105, y: 0.70675105, z: 0.022426091, w: -0.022426154}
-  m_LocalPosition: {x: -0.24129622, y: 1.4771794, z: -1.3237582}
+  m_LocalPosition: {x: -0.24133421, y: 1.6695164, z: 0.12259197}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -1661,7 +1663,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1849464522270990}
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.025510691, y: -0.022312773, z: 1.0797879}
+  m_LocalPosition: {x: -0.025510699, y: -0.3805071, z: 1.0227886}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -1674,7 +1676,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1156985191917442}
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1.5091364, y: 0.061445158, z: 0.025203247}
+  m_LocalPosition: {x: -1.153, y: 0.061445158, z: 0.025}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4956381294497376}
@@ -1728,7 +1730,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1695643350398696}
   m_LocalRotation: {x: 4.3296377e-17, y: -0.7071068, z: 4.3296377e-17, w: 0.7071068}
-  m_LocalPosition: {x: 0.04640642, y: -0.036806334, z: 0.45416}
+  m_LocalPosition: {x: 0.04640642, y: -0.3950007, z: 0.45416}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -1754,7 +1756,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1084156380480348}
   m_LocalRotation: {x: 0.70471716, y: -0.70471716, z: 0.058083706, w: -0.05808361}
-  m_LocalPosition: {x: 0.20854813, y: 0.28786483, z: -1.2452545}
+  m_LocalPosition: {x: 0.20804843, y: 0.011, z: -0.9187546}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -1767,7 +1769,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1339492099278964}
   m_LocalRotation: {x: -0.6975725, y: 0.6975725, z: -0.1157265, w: 0.11572657}
-  m_LocalPosition: {x: 0.10806354, y: 0.10035568, z: -1.174082}
+  m_LocalPosition: {x: 0.107563846, y: -0.11063332, z: -0.8475821}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -1793,7 +1795,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1411148834336356}
   m_LocalRotation: {x: -0.11509058, y: 0.69767773, z: -0.11509058, w: 0.69767773}
-  m_LocalPosition: {x: -0.1356606, y: 1.6877284, z: 1.2196096}
+  m_LocalPosition: {x: -0.136, y: 1.819, z: 1.075}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4820173325175702}
@@ -1805,13 +1807,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1270331464955600}
-  m_LocalRotation: {x: 0, y: 0, z: -0.12070516, w: 0.9926884}
-  m_LocalPosition: {x: 1.6266159, y: 1.1479958, z: 0.7667108}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7062061, w: 0.7080064}
+  m_LocalPosition: {x: 0.939, y: 0.104, z: -0.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4320045169835766}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.854004}
 --- !u!4 &4292219645551768
 Transform:
   m_ObjectHideFlags: 1
@@ -1819,7 +1821,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1451994979275184}
   m_LocalRotation: {x: 0.70122486, y: -0.70106494, z: 0.09101512, w: -0.09223884}
-  m_LocalPosition: {x: -0.28743267, y: 1.550985, z: -1.258828}
+  m_LocalPosition: {x: -0.28747067, y: 1.743322, z: 0.18752217}
   m_LocalScale: {x: 1, y: 1, z: 1.0000001}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -1868,7 +1870,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1301357051484118}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7315762, y: 2.3653014, z: -0.066927336}
+  m_LocalPosition: {x: 0.861, y: 1.207, z: -0.066927336}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4320045169835766}
@@ -1938,7 +1940,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1001702878002044}
   m_LocalRotation: {x: 0.14659221, y: 0.6917447, z: 0.14659221, w: 0.6917447}
-  m_LocalPosition: {x: 0.21759051, y: -0.12878785, z: -0.1139444}
+  m_LocalPosition: {x: 0.21840817, y: -0.4869822, z: -0.026198547}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -1951,7 +1953,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1944105960639166}
   m_LocalRotation: {x: -0.06431455, y: 0.06431444, z: -0.7041759, w: 0.7041759}
-  m_LocalPosition: {x: -0.079597965, y: 1.3979524, z: -1.4300643}
+  m_LocalPosition: {x: -0.08, y: 1.602, z: -1.331}
   m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 4820173325175702}
@@ -1964,7 +1966,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1432038309714234}
   m_LocalRotation: {x: -0.52893466, y: 0.5297529, z: 0.46928474, w: -0.4683609}
-  m_LocalPosition: {x: 0.14308453, y: -0.2685141, z: -0.6418947}
+  m_LocalPosition: {x: 0.14308453, y: -0.5917029, z: -0.6418947}
   m_LocalScale: {x: 1, y: 0.99999994, z: 1.0000002}
   m_Children: []
   m_Father: {fileID: 4820173325175702}
@@ -1977,7 +1979,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1193686247532720}
   m_LocalRotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: 2.220446e-16}
-  m_LocalPosition: {x: 0.01894144, y: 0.022949219, z: -0.20697936}
+  m_LocalPosition: {x: -0.28026438, y: 0.022949219, z: -0.20747524}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4539476204315460}
@@ -1990,7 +1992,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1696408416033544}
   m_LocalRotation: {x: -0.50926954, y: 0.50926965, z: 0.49055538, w: -0.49055535}
-  m_LocalPosition: {x: -0.009679145, y: -0.40140623, z: -0.6846072}
+  m_LocalPosition: {x: -0.009679145, y: -0.724595, z: -0.6846072}
   m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
   m_Children: []
   m_Father: {fileID: 4820173325175702}
@@ -2016,7 +2018,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1105379936952258}
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.037872486, y: -0.036806334, z: 0.57633406}
+  m_LocalPosition: {x: 0.037872486, y: -0.3950007, z: 0.57633406}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2042,7 +2044,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1672229367562968}
   m_LocalRotation: {x: 0.000000043306475, y: -0.00000007198644, z: -0.4078658, w: 0.9130419}
-  m_LocalPosition: {x: 0.6842531, y: -0.06701324, z: 0.06358551}
+  m_LocalPosition: {x: 0.6842531, y: -0.4511914, z: 0.06358551}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 4381904889641024}
@@ -2055,7 +2057,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1704714466217680}
   m_LocalRotation: {x: 4.3296377e-17, y: -0.7071068, z: 4.3296377e-17, w: 0.7071068}
-  m_LocalPosition: {x: -0.02303194, y: 0.04249481, z: 0.5933476}
+  m_LocalPosition: {x: -0.32223776, y: 0.04249481, z: 0.59285176}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4539476204315460}
@@ -2068,7 +2070,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1368292065369746}
   m_LocalRotation: {x: 0.4469784, y: -0.44697833, z: -0.5479145, w: 0.54791456}
-  m_LocalPosition: {x: 0.074510306, y: -0.12459106, z: -0.66896987}
+  m_LocalPosition: {x: 0.074510306, y: -0.44777983, z: -0.66896987}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4820173325175702}
@@ -2081,7 +2083,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1383944747204216}
   m_LocalRotation: {x: 0, y: 0, z: 0.17877857, w: 0.98388934}
-  m_LocalPosition: {x: 0.27406952, y: -0.5630855, z: 0.61476135}
+  m_LocalPosition: {x: 0.191, y: -0.978, z: 0.438}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4320045169835766}
@@ -2094,7 +2096,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1651214067492538}
   m_LocalRotation: {x: 0.7071068, y: 0.7071068, z: 2.0844183e-15, w: -1.9978227e-15}
-  m_LocalPosition: {x: 0.041024588, y: 0.572606, z: -0.3702461}
+  m_LocalPosition: {x: 0.041024588, y: 0.643, z: -0.3702461}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4820173325175702}
@@ -2107,7 +2109,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1737060331850050}
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.024263639, y: 0.03452347, z: 0.4502629}
+  m_LocalPosition: {x: -0.32346946, y: 0.03452347, z: 0.44976702}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4539476204315460}
@@ -2120,7 +2122,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1161763100351666}
   m_LocalRotation: {x: -0.6908799, y: 0.69088, z: -0.15061517, w: 0.15061507}
-  m_LocalPosition: {x: 0.12315227, y: 0.39768538, z: -0.5236488}
+  m_LocalPosition: {x: 0.12315227, y: 0.0744966, z: -0.5236488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4820173325175702}
@@ -2153,7 +2155,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1756534086008270}
   m_LocalRotation: {x: 0.14670546, y: -0.69172066, z: -0.14670566, w: 0.69172066}
-  m_LocalPosition: {x: 0.0398958, y: 1.6161954, z: -0.48976836}
+  m_LocalPosition: {x: 0.03989577, y: 0.8614137, z: -0.7909235}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2166,7 +2168,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1779387785772766}
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.037872486, y: -0.036806334, z: 0.7092168}
+  m_LocalPosition: {x: 0.037872486, y: -0.395, z: 0.7092168}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2179,7 +2181,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1268133272631562}
   m_LocalRotation: {x: -0.11360422, y: 0.6979213, z: -0.11360422, w: 0.6979213}
-  m_LocalPosition: {x: -0.0028854655, y: -0.057656553, z: -0.7481543}
+  m_LocalPosition: {x: -0.457, y: -0.057656553, z: 0.782}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4539476204315460}
@@ -2192,7 +2194,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1516262296504094}
   m_LocalRotation: {x: -0.6975725, y: 0.6975725, z: -0.1157265, w: 0.11572657}
-  m_LocalPosition: {x: 0.11085491, y: 0.2929979, z: -0.4472969}
+  m_LocalPosition: {x: 0.11085491, y: -0.030190885, z: -0.4472969}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4820173325175702}
@@ -2218,7 +2220,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1537872225954872}
   m_LocalRotation: {x: 0.7034431, y: 0.071887635, z: -0.70344305, w: -0.071887635}
-  m_LocalPosition: {x: -0.025510691, y: 1.6620396, z: -0.27163726}
+  m_LocalPosition: {x: -0.02551072, y: 0.9072579, z: -0.5727924}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2244,7 +2246,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1175144219899110}
   m_LocalRotation: {x: -0.000000014590106, y: -0.000000108300114, z: 0.13351272, w: 0.9910471}
-  m_LocalPosition: {x: -0.09372726, y: 0.035320435, z: -0.07351532}
+  m_LocalPosition: {x: 0.24531925, y: -0.34885773, z: -0.07400363}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4381904889641024}
@@ -2270,7 +2272,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1647701824177198}
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.025510691, y: -0.022312773, z: 1.2814777}
+  m_LocalPosition: {x: -0.026, y: -0.373, z: 1.152}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2283,7 +2285,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1307572292859150}
   m_LocalRotation: {x: -0.6908799, y: 0.69088, z: -0.15061517, w: 0.15061507}
-  m_LocalPosition: {x: 0.120360255, y: 0.20504257, z: -1.2504337}
+  m_LocalPosition: {x: 0.12, y: -0.042, z: -0.966}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2322,7 +2324,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1069109491246106}
   m_LocalRotation: {x: -0.11360422, y: 0.6979213, z: -0.11360422, w: 0.6979213}
-  m_LocalPosition: {x: -0.1702281, y: 1.7032936, z: 0.1384079}
+  m_LocalPosition: {x: -0.17, y: 0.831, z: -0.357}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2348,7 +2350,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1215668011999598}
   m_LocalRotation: {x: 0.09768623, y: -0.09890834, z: -0.70032674, w: 0.700155}
-  m_LocalPosition: {x: 0.061446704, y: -0.18690552, z: -1.30523}
+  m_LocalPosition: {x: 0.06094701, y: -0.3978945, z: -0.9787301}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2361,7 +2363,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1487419763092774}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.7399836, y: 2.547702, z: -0.048323974}
+  m_LocalPosition: {x: -3.01, y: -2.44, z: -0.048323974}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4320045169835766}
@@ -2374,7 +2376,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1964166998812536}
   m_LocalRotation: {x: 0.4033446, y: 0.40334466, z: -0.58078665, w: 0.58078665}
-  m_LocalPosition: {x: -0.1384599, y: 1.701392, z: 0.27319914}
+  m_LocalPosition: {x: -0.1382349, y: 0.8290986, z: -0.22220802}
   m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2387,7 +2389,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1601217046786986}
   m_LocalRotation: {x: 4.3296377e-17, y: -0.7071068, z: 4.3296377e-17, w: 0.7071068}
-  m_LocalPosition: {x: 0.012401295, y: 1.7830329, z: 1.1163673}
+  m_LocalPosition: {x: 0.012401265, y: 1.0282512, z: 0.81521225}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2413,7 +2415,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1180025128750222}
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.5540767, y: 0.06645523, z: -0.03646515}
+  m_LocalPosition: {x: 0.5540767, y: -0.317, z: -0.03646515}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4381904889641024}
@@ -2464,13 +2466,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1713058952096990}
-  m_LocalRotation: {x: 0.000000025531312, y: -0.00000008003529, z: -0.18622893, w: 0.9825064}
-  m_LocalPosition: {x: 1.1798034, y: -0.044295195, z: 0.08070496}
+  m_LocalRotation: {x: 0.000000014901159, y: -0, z: 0.33351007, w: 0.9427466}
+  m_LocalPosition: {x: 1.341, y: -0.044295195, z: 0.081}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 4956381294497376}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 38.964}
 --- !u!4 &4831894539221892
 Transform:
   m_ObjectHideFlags: 1
@@ -2478,7 +2480,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1859689826483786}
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.110153, y: 1.292781, z: 0.11887329}
+  m_LocalPosition: {x: -1.809, y: 0.442, z: 0.11887329}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4320045169835766}
@@ -2491,7 +2493,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1425027384525698}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.33104873, y: 0.01817871, z: -0.07351532}
+  m_LocalPosition: {x: 0.008, y: -0.366, z: -0.074}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4381904889641024}
@@ -2504,7 +2506,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1595976677052978}
   m_LocalRotation: {x: -0.7066557, y: 0.7069608, z: -0.021135403, w: 0.01993977}
-  m_LocalPosition: {x: 0.06785015, y: 0.210847, z: -0.4707045}
+  m_LocalPosition: {x: 0.06785015, y: -0.11234178, z: -0.4707045}
   m_LocalScale: {x: 1, y: 1, z: 1.0000001}
   m_Children: []
   m_Father: {fileID: 4820173325175702}
@@ -2530,7 +2532,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1424219758001018}
   m_LocalRotation: {x: 0.07631617, y: 0.70297647, z: 0.07631617, w: 0.70297647}
-  m_LocalPosition: {x: 0.08120756, y: -0.016979218, z: 0.121491544}
+  m_LocalPosition: {x: -0.218, y: -0.016979218, z: 0.121}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4539476204315460}
@@ -2556,7 +2558,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1318169772998964}
   m_LocalRotation: {x: 0.7071068, y: 0.7071068, z: 2.0844183e-15, w: -1.9978227e-15}
-  m_LocalPosition: {x: 0.038233202, y: 0.0045570373, z: -1.0970309}
+  m_LocalPosition: {x: 0.037733506, y: -0.20643196, z: -0.77053094}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2569,7 +2571,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1772899558323312}
   m_LocalRotation: {x: 0.7062584, y: -0.70625836, z: -0.03462794, w: 0.03462787}
-  m_LocalPosition: {x: 0.11049942, y: -0.3280113, z: -1.2404965}
+  m_LocalPosition: {x: 0.11, y: -0.539, z: -0.914}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2582,7 +2584,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1396421949243048}
   m_LocalRotation: {x: -0.70436424, y: 0.70436424, z: -0.062217698, w: 0.062217765}
-  m_LocalPosition: {x: -0.22396162, y: 1.3366636, z: -1.4043521}
+  m_LocalPosition: {x: -0.224, y: 1.529, z: 0.042}
   m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2594,8 +2596,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1388019072429702}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 90, y: 1, z: 36}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 47.416847, y: 26.07, z: -13.611191}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4670761611564594}
@@ -2642,7 +2644,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1220740864815314}
   m_LocalRotation: {x: -0.64880186, y: 0.6556975, z: -0.26468974, w: 0.2811694}
-  m_LocalPosition: {x: 0.13853313, y: 2.2161968, z: 0.10626495}
+  m_LocalPosition: {x: -0.057, y: 2.1, z: 0.106}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4820173325175702}
@@ -2655,7 +2657,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1098289611553058}
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.025510691, y: -0.022312773, z: 0.88826686}
+  m_LocalPosition: {x: -0.025510691, y: -0.3805071, z: 0.88826686}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2668,7 +2670,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1678468496321346}
   m_LocalRotation: {x: 0.4033446, y: 0.40334466, z: -0.58078665, w: 0.58078665}
-  m_LocalPosition: {x: -0.07737802, y: -0.059855346, z: -0.59233534}
+  m_LocalPosition: {x: -0.3765838, y: -0.059855346, z: -0.59283125}
   m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 4539476204315460}
@@ -2681,7 +2683,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1961336951696428}
   m_LocalRotation: {x: 0.08740218, y: 0.7016843, z: 0.08740218, w: 0.7016843}
-  m_LocalPosition: {x: 0.21759048, y: -0.10385544, z: 0.04020233}
+  m_LocalPosition: {x: 0.218, y: -0.46204978, z: 0.082}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2694,7 +2696,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1534539057945112}
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.032298412, y: 1.7830329, z: 1.1751013}
+  m_LocalPosition: {x: -0.032298442, y: 1.0282512, z: 0.8739462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2725,7 +2727,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1241374044549358}
   m_LocalRotation: {x: 4.3296377e-17, y: -0.7071068, z: 4.3296377e-17, w: 0.7071068}
-  m_LocalPosition: {x: 0.027409954, y: 0.03452347, z: 0.38236618}
+  m_LocalPosition: {x: -0.509, y: 0.03452347, z: 0.382}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4539476204315460}
@@ -2738,7 +2740,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1980145559390218}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.99968565, y: 2.5468566, z: 0.25901183}
+  m_LocalPosition: {x: -0.904, y: 1.372, z: 0.25901183}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4320045169835766}
@@ -2751,7 +2753,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1490758856634610}
   m_LocalRotation: {x: 0.04936171, y: 0.7036309, z: 0.048366316, w: 0.707197}
-  m_LocalPosition: {x: 0.03746111, y: -0.047884826, z: 0.21372588}
+  m_LocalPosition: {x: 0.03746111, y: -0.40607917, z: 0.21372588}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -2764,7 +2766,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1694179592085354}
   m_LocalRotation: {x: 0.07631617, y: 0.70297647, z: 0.07631617, w: 0.70297647}
-  m_LocalPosition: {x: -0.10314985, y: 1.6586665, z: 0.8731616}
+  m_LocalPosition: {x: -0.10314988, y: 0.8970012, z: 0.57200646}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4178524370049534}
@@ -6104,20 +6106,39 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1713058952096990}
   m_Mesh: {fileID: 4300096, guid: 9eb4d689eea78e54da10689d7d578cef, type: 3}
---- !u!95 &95011044246755482
-Animator:
-  serializedVersion: 3
+--- !u!65 &65114658644121352
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1388019072429702}
+  m_GameObject: {fileID: 1797002030034282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9eb4d689eea78e54da10689d7d578cef, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  serializedVersion: 2
+  m_Size: {x: 2.825128, y: 3.7845812, z: 1.3892969}
+  m_Center: {x: 0.36451858, y: 1.308084, z: -0.016289413}
+--- !u!65 &65335072230852580
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1487419763092774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.98542655, y: 1.4495564, z: 1.0448885}
+  m_Center: {x: -0.040463984, y: 0.4109528, z: 0.00012615323}
+--- !u!65 &65879361660069740
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1456928213830816}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.8251283, y: 3.7845812, z: 1.3892969}
+  m_Center: {x: 0.36451912, y: 1.308084, z: -0.016289413}
