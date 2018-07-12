@@ -47,9 +47,9 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Posters
-    second: {fileID: 2100000, guid: 5ada7aa293506a64485ea0d47a4fe36c, type: 2}
+    second: {fileID: 2100000, guid: 798071b0cc7ff254a840d7ad4406038a, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -85,7 +85,7 @@ ModelImporter:
     importCameras: 0
     importLights: 0
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

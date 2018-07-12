@@ -21,12 +21,12 @@ GameObject:
   - component: {fileID: 4346993400627308}
   - component: {fileID: 33453626534368210}
   - component: {fileID: 23751269719812560}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 'lamppostSmallLOD '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 125
   m_IsActive: 1
 --- !u!1 &1563565479604404
 GameObject:
@@ -40,12 +40,28 @@ GameObject:
   - component: {fileID: 23687942319461708}
   - component: {fileID: 205118447088929546}
   - component: {fileID: 65807767232602402}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Lamp Post Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 125
+  m_IsActive: 1
+--- !u!1 &1618856239384498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4421892876805562}
+  - component: {fileID: 108064176412273376}
+  m_Layer: 10
+  m_Name: Point light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4015798149637890
 Transform:
@@ -54,10 +70,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1563565479604404}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -9.457901, y: -1.5068188, z: 1.9641933}
-  m_LocalScale: {x: 0.8, y: 0.8000005, z: 0.8000005}
+  m_LocalPosition: {x: 7, y: -1.25, z: 14.625}
+  m_LocalScale: {x: 0.79999995, y: 0.8000009, z: 0.8000009}
   m_Children:
   - {fileID: 4346993400627308}
+  - {fileID: 4421892876805562}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -73,6 +90,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4015798149637890}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4421892876805562
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1618856239384498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: 4.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4015798149637890}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23687942319461708
 MeshRenderer:
@@ -168,6 +198,42 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.48322618, y: 0.4906808, z: 4.307517}
   m_Center: {x: 0.0053254887, y: 0, z: 2.1484122}
+--- !u!108 &108064176412273376
+Light:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1618856239384498}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.9852941, g: 0.9852941, b: 0.77519464, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!205 &205118447088929546
 LODGroup:
   m_ObjectHideFlags: 1

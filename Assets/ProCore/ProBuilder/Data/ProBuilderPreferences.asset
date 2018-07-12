@@ -24,6 +24,7 @@ MonoBehaviour:
   - pbCollapseVertexToFirst
   - pbFillHoleSelectsEntirePath
   - pbDragSelectWholeElement
+  - pbUVMaterialPreview
   m_Int_keys:
   - pbDefaultEditLevel
   - pbVertexColorTool
@@ -49,8 +50,8 @@ MonoBehaviour:
   m_Color_keys: []
   m_Material_keys:
   - pbDefaultMaterial
-  m_Bool_values: 010000000000010001000000
-  m_Int_values: 00000000000000000000000002000000020000000100000001000000000000000200000001000000
+  m_Bool_values: 01000000000001000000000001
+  m_Int_values: 00000000000000000000000002000000020000000100000001000000010000000200000001000000
   m_Float_values:
   - 0
   - 0

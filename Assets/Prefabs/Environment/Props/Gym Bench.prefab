@@ -11,13 +11,12 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 6500000}
-  - component: {fileID: 11400000}
   m_Layer: 10
   m_Name: Gym Bench
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 125
   m_IsActive: 1
 --- !u!4 &400000
 Transform:
@@ -25,8 +24,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 80.75, y: 0.3500038, z: 172}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.595146, y: -1.341538, z: 1.15271}
   m_LocalScale: {x: 1.1682844, y: 1.1682844, z: 1.1682844}
   m_Children: []
   m_Father: {fileID: 0}
@@ -85,20 +84,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.5, y: 0.43813315, z: 0.44896376}
   m_Center: {x: 0, y: 0.21906658, z: 0}
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fa2e4f182f20c0469418a58cb7f22bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dist_near: 0
-  dist_far: 50
-  show_distance: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

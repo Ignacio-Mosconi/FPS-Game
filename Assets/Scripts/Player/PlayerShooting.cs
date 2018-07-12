@@ -12,6 +12,8 @@ public class PlayerShooting : MonoBehaviour
     [SerializeField] float fireRate;
     [SerializeField] float impactForce;
     [SerializeField] UnityEvent onShot;
+    [SerializeField] AudioSource shotSound;
+    [SerializeField] AudioSource emptyMagSound;
     PlayerReloading playerReloading;
     Camera fpsCamera;
     ParticleSystem muzzleFlash;
@@ -26,17 +28,24 @@ public class PlayerShooting : MonoBehaviour
 
     void Update() 
 	{
-		if (Input.GetButton("Fire1") && Time.time >= nextFireTime && playerReloading.BulletsInMag > 0)
+        if (Input.GetButton("Fire1") && Time.time >= nextFireTime && !PauseMenu.IsPaused && !LevelManager.Instance.GameOver)
         {
-            nextFireTime = Time.time + 1 / fireRate;
-            Shoot();
-            onShot.Invoke();
+            if (playerReloading.BulletsInMag > 0)
+            {
+                nextFireTime = Time.time + 1 / fireRate;
+                Shoot();
+                onShot.Invoke();
+            }
+           else
+               if (!emptyMagSound.isPlaying)
+                   emptyMagSound.Play();
         }
 	}
 
     void Shoot()
     {
         muzzleFlash.Play();
+        shotSound.Play();
 
         playerReloading.BulletsInMag--;
 
@@ -50,8 +59,6 @@ public class PlayerShooting : MonoBehaviour
             {
                 float damagePercentage = 1 - (hit.transform.position - transform.position).magnitude / range;
                 targetLife.TakeDamage(damage * damagePercentage);
-                Debug.Log((hit.transform.position - transform.position).magnitude);
-                Debug.Log(damage * damagePercentage);
             }
             if (targetRigidbody)
                 targetRigidbody.AddForce(-hit.normal * impactForce);

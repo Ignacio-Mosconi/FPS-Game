@@ -21,12 +21,12 @@ GameObject:
   - component: {fileID: 4529004448579702}
   - component: {fileID: 33781243749214470}
   - component: {fileID: 23569402373300354}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Ceiling Fan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 125
   m_IsActive: 1
 --- !u!4 &4529004448579702
 Transform:

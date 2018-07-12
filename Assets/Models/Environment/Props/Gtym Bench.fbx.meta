@@ -20,7 +20,7 @@ ModelImporter:
       name: sitzbank
     second: {fileID: 2100000, guid: d7be5c7d270131249a14fe194d86cd04, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 2
     materialSearch: 1
     materialLocation: 0
@@ -56,7 +56,7 @@ ModelImporter:
     importCameras: 0
     importLights: 0
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

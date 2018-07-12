@@ -9,25 +9,26 @@ public class PlayerReloading : MonoBehaviour
     [SerializeField] int ammoLeft;
     [SerializeField] UnityEvent onAmmoChange;
     [SerializeField] UnityEvent onReload;
+    [SerializeField] AudioSource reloadSound;
     int bulletsInMag;
 
-    void Awake()
+    void Start()
     {
         bulletsInMag = magSize;
+        onAmmoChange.Invoke();
     }
 
     void Update()
     {
         if (Input.GetButtonDown("Reload") && bulletsInMag < magSize + 1)
-        {
             Reload();
-        }
     }
 
     void Reload()
     {
         if (ammoLeft > 0)
         {
+            reloadSound.Play();
             if (ammoLeft > magSize)
             {
                 if (bulletsInMag > 0)
