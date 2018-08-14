@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 33833367189793748}
   - component: {fileID: 23535279234547676}
   m_Layer: 10
-  m_Name: Lamp 1
+  m_Name: Lamp Gym
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
