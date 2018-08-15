@@ -65,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
             lastPositionY = 0;
 
             verticalSpeed = (Input.GetButton("Jump")) ? jumpingSpeed : 0;
-            jumpedWhileSprinting = Input.GetButton("Jump") && Input.GetButton("Forward") && Input.GetButton("Sprint") ? true : false;
+            jumpedWhileSprinting = Input.GetButton("Jump") && Input.GetAxis("Vertical") > 0 && Input.GetButton("Sprint") ? true : false;
         }
         else
         {
