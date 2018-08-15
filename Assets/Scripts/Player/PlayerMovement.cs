@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
         float fwdMovement = Input.GetAxis("Vertical");
         float horMovement = Input.GetAxis("Horizontal");
-        float speedMultiplier = Input.GetButton("Forward") && Input.GetButton("Sprint") && !IsJumping() || jumpedWhileSprinting ?
+        float speedMultiplier = (Input.GetAxis("Vertical") > 0 && Input.GetButton("Sprint") && !IsJumping()) || jumpedWhileSprinting ?
             1.0f : 0.5f;
 
         Vector3 inputVector = new Vector3(horMovement, 0, fwdMovement);
@@ -59,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
         if (charController.isGrounded)
         {
             if (fallingDistance >= maxFallingDistance)
-                life.TakeDamage(100 * fallingDistance / 10);
+                life.TakeDamage(10 * fallingDistance);
 
             fallingDistance = 0;
             lastPositionY = 0;
