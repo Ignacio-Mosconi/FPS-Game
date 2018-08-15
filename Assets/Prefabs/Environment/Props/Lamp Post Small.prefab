@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 4421892876805562}
   - component: {fileID: 108064176412273376}
   m_Layer: 10
-  m_Name: Point light
+  m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,7 +70,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1563565479604404}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 7, y: -1.25, z: 14.625}
+  m_LocalPosition: {x: -7.457901, y: -1.25, z: 14.625}
   m_LocalScale: {x: 0.79999995, y: 0.8000009, z: 0.8000009}
   m_Children:
   - {fileID: 4346993400627308}
@@ -207,7 +207,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 0.9852941, g: 0.9852941, b: 0.77519464, a: 1}
+  m_Color: {r: 0.90588236, g: 0.90588236, b: 0.38431373, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -227,7 +227,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570

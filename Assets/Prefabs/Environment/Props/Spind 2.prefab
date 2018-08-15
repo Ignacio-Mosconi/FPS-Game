@@ -30,7 +30,7 @@ GameObject:
   - component: {fileID: 2300002}
   - component: {fileID: 6400000}
   m_Layer: 10
-  m_Name: Locker 2
+  m_Name: Spind 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
